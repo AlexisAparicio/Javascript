@@ -1,0 +1,59 @@
+.container{
+    width: 200px;
+    height: 200px;
+    background: pink;
+    position: relative;
+    top: 20px;
+}
+
+.item{
+    width: 20px;
+    height: 20px;
+    background: red;
+    position: absolute;
+    right: 0;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: gray;
+    position: fixed;
+    top: 0;
+}
+
+ul p {
+    top: 0;
+    position: sticky;
+}
+
+div{
+    position: absolute;
+    background: pink;
+}
+
+.one{
+    z-index: 4;
+}
+.two{
+    z-index: 3;
+}
+
+.red{
+    z-index: 4;
+    width: 20px;
+    height: 20px;
+    background: red;
+}
+.blue{
+    z-index: 5;
+    width: 20px;
+    height: 20px;
+    background: blue;
+}
+.yellow{
+    z-index: 4;
+    width: 20px;
+    height: 20px;
+    background: yellow;
+}
