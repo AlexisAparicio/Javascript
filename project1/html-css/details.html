@@ -26,5 +26,27 @@
             </button>
         </div>
     </aside>
+
+    <section class="img-gallery">
+        <img src="./imgs/icon/T-anti-virus.webp" alt="">
+        <img src="./imgs/icon/T-anti-virus.webp" alt="">
+        <img src="./imgs/icon/T-anti-virus.webp" alt="">
+        <img src="./imgs/icon/T-anti-virus.webp" alt="">
+        <img src="./imgs/icon/T-anti-virus.webp" alt="">
+    </section>
+
+    <script>
+        var articulos=[
+            {marca:"Subaru",Modelo:"WRX",Costo:45000},
+            {marca:"Mitsubishi",Modelo:"Evolution IX",Costo:40000},
+            {marca:"Toyota",Modelo:"SUPRA",Costo:49000},
+            {marca:"Mazda",Modelo:"RX-7",Costo:37000},
+            {marca:"Nissan",Modelo:"GTR",Costo:45000},
+    ];
+
+    var articulosFiltrados = articulos.filter(function(articulo){
+        return articulo.Costo <=39000
+    });
+    </script>
 </body>
 </html>
