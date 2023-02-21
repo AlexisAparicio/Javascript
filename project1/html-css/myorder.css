@@ -45,6 +45,18 @@ h1{
     --webkit-background-clip:text;
 }
 
+.title{
+    font-size: var(--lg);
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-align: center;
+    }
+    .title-acc{
+        font-size: var(--lg);
+        margin-bottom: 30px;
+        text-align: start;
+        }
+
 /* Order CSS */
 .my-order{
     width: 100%;
@@ -158,7 +170,7 @@ nav{
     font-weight: bold;
     position: absolute;
     top:0px;
-    right: -3px;
+    right: px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -311,9 +323,15 @@ nav{
     margin-bottom: 36px;
 }
 
-.product-detail{
+/* Shooping cart */
+#ShoppingCartContainer{
+    padding: 0 24px;
+}
+/* Shooping cart END */
+
+aside{
+    background-color: var(--white);
     width: 360px;
-    padding-bottom: 0 24px;
     box-sizing: border-box;
     position: absolute;
     right: 0;
@@ -333,7 +351,7 @@ nav{
     cursor: pointer;
 }
 
-.product-detail > img:nth-child(2){
+#ProductDetail > img:nth-child(2){
     width: 360px;
     height: 360px;
     object-fit: cover;
@@ -371,6 +389,9 @@ nav{
 .shopping-cart{
     display: grid;
     grid-template-columns: auto 1fr auto auto;
+    gap:16px;
+    margin-bottom: 24px;
+    align-items: center;
 }
 
 .shopping-cart figure{
@@ -382,8 +403,9 @@ width: 70px;
 height: 70px;
 border-radius: 20px;
 object-fit: cover;
-margin-bottom: 9px;
-align-items: center;
+/* margin-bottom: 9px;
+margin-left: 10px;
+align-items: center; */
 }
 
 .shopping-cart p:nth-child(2){
@@ -396,6 +418,9 @@ align-items: center;
     font-weight: bold;
     }
 
+    /* End of shopping */
+
+/* Title design */
     .title-container{
         display: flex;
     }
@@ -403,14 +428,20 @@ align-items: center;
         transform: rotate(180deg);
         margin-right: 14px;
     }
-
-    /* End of shopping */
-
+    /* Title design END*/
 
 
 /* Mobile menu */
 .mobile-menu{
+    /* padding: 24px; */
+    background-color: var(--white);
+    position: absolute;
+    top: 60px;
+    left: 0px;
     padding: 24px;
+    width: 100%;
+    height: 100vh;
+
 }
 .mobile-menu a{
     text-decoration: none;
@@ -460,7 +491,7 @@ align-items: center;
     .navbar-email{
         display: none;
     }
-    .product-detail{
+    aside{
         width: 100%;
         padding-bottom: 24px;
         position: absolute;
