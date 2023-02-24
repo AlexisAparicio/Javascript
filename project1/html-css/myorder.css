@@ -133,7 +133,8 @@ h1{
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 24px;
+    align-items: center;
+    padding:0 24px;
     border-bottom: 1px solid var(--very-light-pink);
 
 }
@@ -433,15 +434,12 @@ align-items: center; */
 
 /* Mobile menu */
 .mobile-menu{
-    /* padding: 24px; */
     background-color: var(--white);
     position: absolute;
     top: 60px;
     left: 0px;
     padding: 24px;
     width: 100%;
-    height: 100vh;
-
 }
 .mobile-menu a{
     text-decoration: none;
@@ -492,8 +490,8 @@ align-items: center; */
         display: none;
     }
     aside{
-        width: 100%;
-        padding-bottom: 24px;
+         width: 100%;
+         padding-bottom: 24px;
         position: absolute;
         right: 0;
     }

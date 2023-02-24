@@ -2,13 +2,17 @@ const menuEmail=document.querySelector('.navbar-email');
 const desktopmenu=document.querySelector('.desktop-menu');
 const menuburger=document.querySelector('.menu');
 const menumobile=document.querySelector('.mobile-menu');
+const closeproductdetail=document.querySelector('.product-detail-close');
 const menucarrito=document.querySelector('.navbar-shopping-cart');
 const aside=document.querySelector('#ShoppingCartContainer');
 const CardsContainer=document.querySelector('.cards-container-main');
+const ProductDetails=document.querySelector('#ProductDetail');
 
 menuEmail.addEventListener('click',toggleDesktopMenu);
 menuburger.addEventListener('click',toggleMobileMenu);
 menucarrito.addEventListener('click',toggleCarritoAside);
+closeproductdetail.addEventListener('click',close);
+
 
 function toggleDesktopMenu() {
     const isAsideClosed = aside.classList.contains('inactive');
@@ -26,6 +30,7 @@ function toggleDesktopMenu() {
         aside.classList.add('inactive'); 
     }
     
+    close();
     menumobile.classList.toggle('inactive');
     }
 
@@ -35,8 +40,22 @@ function toggleDesktopMenu() {
     if (!isMobileMenuClosed) {
         menumobile.classList.add('inactive'); 
     }
+
+    const isProductDetailsClosed = ProductDetails.classList.contains('inactive');
+    
+    if (!isProductDetailsClosed) {
+        ProductDetails.classList.add('inactive'); 
+    }
     
     aside.classList.toggle('inactive');
+    }
+
+    function open(){
+    aside.classList.add('inactive');
+    ProductDetails.classList.remove('inactive');
+    }
+    function close(){
+        ProductDetails.classList.add('inactive');
     }
 
     const productList =[];
@@ -58,6 +77,42 @@ function toggleDesktopMenu() {
         image: '../imgs/icon/virusT.jpeg',
     });
 
+    productList.push({
+        name: 'Virus Plagas',
+        price:'1000',
+        image: '../imgs/icon/virusT.jpeg',
+    });
+
+    productList.push({
+        name: 'Virus Progenitor',
+        price:'1000',
+        image: '../imgs/icon/virusT.jpeg',
+    });
+
+    productList.push({
+        name: 'Virus Progenitor',
+        price:'1000',
+        image: '../imgs/icon/virusT.jpeg',
+    });
+
+    productList.push({
+        name: 'Virus Progenitor',
+        price:'1000',
+        image: '../imgs/icon/virusT.jpeg',
+    });
+
+    productList.push({
+        name: 'Virus Progenitor',
+        price:'1000',
+        image: '../imgs/icon/virusT.jpeg',
+    });
+
+    productList.push({
+        name: 'Virus Progenitor',
+        price:'1000',
+        image: '../imgs/icon/virusT.jpeg',
+    });
+
     
     function RenderProducts(arr){
     //Recorrido de array y obtener el elemento
@@ -67,6 +122,7 @@ function toggleDesktopMenu() {
 
     const productImg = document.createElement('img');
     productImg.setAttribute('src',product.image);
+    productImg.addEventListener('click',open);
 
     const productInfo= document.createElement('div');
     productInfo.classList.add('product-info-main');
