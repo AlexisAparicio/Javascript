@@ -62,55 +62,55 @@ function toggleDesktopMenu() {
     productList.push({
         name: 'VirusT',
         price:'450',
-        image: '../imgs/icon/virusT.jpeg',
+        image: 'project1/imgs/icon/virusT.jpeg',
     });
 
     productList.push({
         name: 'VirusG',
         price:'350',
-        image: '../imgs/icon/virusT.jpeg',
+        image: 'project1/imgs/icon/virusT.jpeg',
     });
 
     productList.push({
         name: 'Virus Progenitor',
         price:'1000',
-        image: '../imgs/icon/virusT.jpeg',
+        image: 'project1/imgs/icon/virusT.jpeg',
     });
 
     productList.push({
         name: 'Virus Plagas',
         price:'1000',
-        image: '../imgs/icon/virusT.jpeg',
+        image: 'project1/imgs/icon/virusT.jpeg',
     });
 
     productList.push({
         name: 'Virus Progenitor',
         price:'1000',
-        image: '../imgs/icon/virusT.jpeg',
+        image: 'project1/imgs/icon/virusT.jpeg',
     });
 
     productList.push({
         name: 'Virus Progenitor',
         price:'1000',
-        image: '../imgs/icon/virusT.jpeg',
+        image: 'project1/imgs/icon/virusT.jpeg',
     });
 
     productList.push({
         name: 'Virus Progenitor',
         price:'1000',
-        image: '../imgs/icon/virusT.jpeg',
+        image: 'project1/imgs/icon/virusT.jpeg',
     });
 
     productList.push({
         name: 'Virus Progenitor',
         price:'1000',
-        image: '../imgs/icon/virusT.jpeg',
+        image: 'project1/imgs/icon/virusT.jpeg',
     });
 
     productList.push({
         name: 'Virus Progenitor',
         price:'1000',
-        image: '../imgs/icon/virusT.jpeg',
+        image: 'project1/imgs/icon/virusT.jpeg',
     });
 
     
@@ -139,7 +139,7 @@ function toggleDesktopMenu() {
 
     const productinfoFigure= document.createElement('figure');
     const productIMGCart = document.createElement('img');
-    productIMGCart.setAttribute('src','../imgs/curso-frontend-developer-practico/icons/bt_add_to_cart.svg');
+    productIMGCart.setAttribute('src','project1/imgs/icons/bt_add_to_cart.svg');
     
     productinfoFigure.appendChild(productIMGCart);
 
