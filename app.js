@@ -62,55 +62,55 @@ function toggleDesktopMenu() {
     productList.push({
         name: 'VirusT',
         price:'450',
-        image: 'project1/imgs/icon/virusT.jpeg',
+        image: 'https://github.com/AlexisAparicio/Javascript/blob/abd41643cc0b1cb3efe98b4f030f5a829323f96f/project1/imgs/icon/virusT.jpeg',
     });
 
     productList.push({
         name: 'VirusG',
         price:'350',
-        image: 'project1/imgs/icon/virusT.jpeg',
+        image: 'https://github.com/AlexisAparicio/Javascript/blob/abd41643cc0b1cb3efe98b4f030f5a829323f96f/project1/imgs/icon/virusT.jpeg',
     });
 
     productList.push({
         name: 'Virus Progenitor',
         price:'1000',
-        image: 'project1/imgs/icon/virusT.jpeg',
+        image: 'https://github.com/AlexisAparicio/Javascript/blob/abd41643cc0b1cb3efe98b4f030f5a829323f96f/project1/imgs/icon/virusT.jpeg',
     });
 
     productList.push({
         name: 'Virus Plagas',
         price:'1000',
-        image: 'project1/imgs/icon/virusT.jpeg',
+        image: 'https://github.com/AlexisAparicio/Javascript/blob/abd41643cc0b1cb3efe98b4f030f5a829323f96f/project1/imgs/icon/virusT.jpeg',
     });
 
     productList.push({
         name: 'Virus Progenitor',
         price:'1000',
-        image: 'project1/imgs/icon/virusT.jpeg',
+        image: 'https://github.com/AlexisAparicio/Javascript/blob/abd41643cc0b1cb3efe98b4f030f5a829323f96f/project1/imgs/icon/virusT.jpeg',
     });
 
     productList.push({
         name: 'Virus Progenitor',
         price:'1000',
-        image: 'project1/imgs/icon/virusT.jpeg',
+        image: 'https://github.com/AlexisAparicio/Javascript/blob/abd41643cc0b1cb3efe98b4f030f5a829323f96f/project1/imgs/icon/virusT.jpeg',
     });
 
     productList.push({
         name: 'Virus Progenitor',
         price:'1000',
-        image: 'project1/imgs/icon/virusT.jpeg',
+        image: 'https://github.com/AlexisAparicio/Javascript/blob/abd41643cc0b1cb3efe98b4f030f5a829323f96f/project1/imgs/icon/virusT.jpeg',
     });
 
     productList.push({
         name: 'Virus Progenitor',
         price:'1000',
-        image: 'project1/imgs/icon/virusT.jpeg',
+        image: 'https://github.com/AlexisAparicio/Javascript/blob/abd41643cc0b1cb3efe98b4f030f5a829323f96f/project1/imgs/icon/virusT.jpeg',
     });
 
     productList.push({
         name: 'Virus Progenitor',
         price:'1000',
-        image: 'project1/imgs/icon/virusT.jpeg',
+        image: 'https://github.com/AlexisAparicio/Javascript/blob/abd41643cc0b1cb3efe98b4f030f5a829323f96f/project1/imgs/icon/virusT.jpeg,
     });
 
     
@@ -139,7 +139,7 @@ function toggleDesktopMenu() {
 
     const productinfoFigure= document.createElement('figure');
     const productIMGCart = document.createElement('img');
-    productIMGCart.setAttribute('src','project1/imgs/icons/bt_add_to_cart.svg');
+    productIMGCart.setAttribute('src','https://github.com/AlexisAparicio/Javascript/blob/b52efe94c42a3eba3424c4ed66031e5ef678b986/project1/imgs/icons/bt_add_to_cart.svg');
     
     productinfoFigure.appendChild(productIMGCart);
 
