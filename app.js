@@ -110,7 +110,7 @@ function toggleDesktopMenu() {
     productList.push({
         name: 'Virus Progenitor',
         price:'1000',
-        image: 'https://github.com/AlexisAparicio/Javascript/blob/abd41643cc0b1cb3efe98b4f030f5a829323f96f/project1/imgs/icon/virusT.jpeg,
+        image: 'https://github.com/AlexisAparicio/Javascript/blob/abd41643cc0b1cb3efe98b4f030f5a829323f96f/project1/imgs/icon/virusT.jpeg',
     });
 
     
