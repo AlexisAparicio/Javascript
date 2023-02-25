@@ -62,7 +62,7 @@ function toggleDesktopMenu() {
     productList.push({
         name: 'VirusT',
         price:'450',
-        image: 'https://github.com/AlexisAparicio/Javascript/blob/abd41643cc0b1cb3efe98b4f030f5a829323f96f/project1/imgs/icon/virusT.jpeg',
+        image: 'project1/imgs/icon/virusT.jpeg',
     });
 
     productList.push({
