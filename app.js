@@ -131,9 +131,11 @@ function toggleDesktopMenu() {
     productInfoDiv.append(productPrice,productName);
 
     const productinfoFigure= document.createElement('figure');
-    const productIMGCart = document.createElement('img');
-    productIMGCart.setAttribute('src','project1/imgs/icons/bt_add_to_cart.svg');
-    
+    const productIMGCart = document.createElement('p');
+    productIMGCart.classList.add("material-icons");
+    const imgcart = document.createTextNode("add_shopping_cart");
+    productIMGCart.appendChild(imgcart);
+
     productinfoFigure.appendChild(productIMGCart);
 
     productInfo.append(productInfoDiv,productinfoFigure);
