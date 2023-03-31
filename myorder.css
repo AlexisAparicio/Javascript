@@ -245,6 +245,10 @@ nav{
     height: 50px;
 }
 
+.menu{
+    cursor:pointer;
+}
+
 .add-to-cart-button{
     display: flex;
     align-items: center;
